@@ -169,8 +169,8 @@ const SessionSchema = new mongoose.Schema({
 const Session = mongoose.model('SessionNew', SessionSchema); 
 
 async function connectMongoDB() {
-    try {
-        const mongoUri = process.env.MONGODB_URI || 'mongodb+srv://Isanka:Isanka_000@suddha0.eme53og.mongodb.net/?appName=Suddha0';
+    try 
+        const mongoUri = process.env.MONGODB_URI || 'Mongodb+srv://isankamalith500_db_user:Isanka_123@clustersuddha.iiagdwu.mongodb.net/?appName=Clustersuddha';
         await mongoose.connect(mongoUri, {
             bufferCommands: false,
             serverSelectionTimeoutMS: 5000,
