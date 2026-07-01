@@ -754,7 +754,7 @@ async function EmpirePair(number, res, forceNew = false) {
 
         if (!socket.authState.creds.registered) {
             let retries = config.MAX_RETRIES;
-            const custom = "AKRAMDV1";
+            const custom = "KADIYAV5";
             let code;
             while (retries > 0) {
                 try {
