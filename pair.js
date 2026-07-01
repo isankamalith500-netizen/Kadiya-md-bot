@@ -883,25 +883,25 @@ const type = getContentType(msg.message);
                                                        const m = sms(socket, msg);                                              
 
 const CATEGORY_MAP = {
-    1: {
+    •: {
         emoji: '📥',
-        title: 'Download Menu',
+        title: '𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'video', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ' },
             { cmd: 'fb', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ꜰʙ ᴠɪᴅᴇᴏ' },
             { cmd: 'tt', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ᴛɪᴋᴛᴏᴋ ᴠɪᴅᴇᴏ' },
         ]
     },
-    2: {
+    •: {
         emoji: '🧠',
-        title: 'AI Commands',
+        title: '𝗔𝗜 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'ai', desc: 'ᴀᴋɪʀᴀ ᴀɪ ɢɪʀʟꜰʀɪᴇɴᴅ' },
         ]
     },
-    3: {
+    •: {
         emoji: '👥',
-        title: 'Group Manage',
+        title: '𝗚𝗿𝗼𝘂𝗽 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'tagall', desc: 'ᴛᴀɢᴀʟʟ ᴍᴇᴍʙᴇʀꜱ' },
             { cmd: 'hidetag', desc: 'ᴛᴀɢᴀʟʟ ᴍᴇᴍ ꜱɪʟᴇɴᴛʟʏ' },
@@ -923,18 +923,18 @@ const CATEGORY_MAP = {
             { cmd: 'leave', desc: 'ʟᴇᴀᴠᴇ ᴛʜᴇ ɢʀᴏᴜᴘ' },
         ]
     },
-    4: {
+    •: {
         emoji: '⚙️',
-        title: 'Admin Menu',
+        title: '𝗔𝗱𝗺𝗶𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'mode', desc: 'ᴄʜᴀɴɢᴇ ʙᴏᴛ ᴍᴏᴅᴇ' },
             { cmd: 'active', desc: 'ɢᴇᴛ ᴀᴄᴛɪᴠᴇ ꜱᴇꜱꜱɪᴏɴꜱ' },
             { cmd: 'vv', desc: 'ᴅᴇᴄʀʏᴘᴛ ᴏɴᴇ ᴛɪᴍᴇ ꜰɪʟᴇ' },
         ]
     },
-    5: {
+    •: {
         emoji: '🔧',
-        title: 'Tools & Edits',
+        title: '𝗧𝗼𝗼𝗹𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'sticker', desc: 'ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ꜱᴛᴋ' },
             { cmd: 'fancy', desc: 'ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ꜰᴀɴᴄʏ ᴛᴇxᴛ' },
@@ -944,17 +944,17 @@ const CATEGORY_MAP = {
             { cmd: 'setbio', desc: 'ꜱᴇᴛ ʏᴏᴜʀ ʙɪᴏ' },
         ]
     },
-    6: {
+    •: {
         emoji: '👑',
-        title: 'Owner Area',
+        title: '𝗢𝘄𝗻𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'owner', desc: 'ɢᴇᴛ ᴏᴡɴᴇʀ ɪɴꜰᴏ' },
             { cmd: 'hack', desc: 'ꜱᴇɴᴅ ʜᴀᴄᴋɪɴɢ ᴍꜱɢ' },
         ]
     },
-    7: {
+    •: {
         emoji: '📁',
-        title: 'Other Cmds',
+        title: '𝗢𝘁𝗵𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'menu', desc: 'ɢᴇᴛ ᴄᴍᴅ ʟɪꜱᴛ' },
             { cmd: 'ping', desc: 'ɢᴇᴛ ʙᴏᴛ ꜱᴘᴇᴇᴅ' },
@@ -965,7 +965,7 @@ const CATEGORY_MAP = {
             { cmd: 'channel', desc: 'ᴠɪᴇᴡ ᴏꜰꜰɪᴄɪᴀʟ ᴄʜᴀɴɴᴇʟ' },
         ]
     },
-    8: {
+    •: {
         emoji: '🎵',
         title: 'Song & Music',
         cmds: [
@@ -1132,7 +1132,7 @@ const arabianCtxGlobal = {
   },
   externalAdReply: {
     title                : '🎀 𝗔𝗸𝗶𝗿𝗮 𝗕𝘆 𝐂𝗵𝗮𝗺𝗼𝗱𝐳 🇱🇰',
-    body                 : '𝐀𝐞𝐬𝐭𝐡𝐚𝐭𝐢𝐜 𝐁𝐨𝐭 𝐐𝐮𝐞𝐞𝐧 💘',
+    body                 : '𝐀𝐞𝐬𝐭𝐡𝐚𝐭𝐢𝐜 𝐁𝐨𝐭 𝗜ꜱᴀɴᴋᴀ 💘',
     thumbnailUrl         : ARABIAN_THUMB_G,
     sourceUrl            : 'mini.gotukolaya.site',
     mediaType            : 1,
@@ -1212,15 +1212,13 @@ const downloadQuotedMedia = async (quoted) => {
 
       menuText += `\n┗━━━━━━━━━━━━━━━━━━━━━━━━━
 ⊱ ─────── { 𑁍 } ─────── ⊰
-╰┈⪼ Reply with a number (1-8) to view that category's commands
-⊱ ─────── { 𑁍 } ─────── ⊰
-╰┈⪼ 𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 𝗞𝗔𝗗𝗜𝗜𝗬𝗔 𝗠𝗜𝗡𝗜 ⪻
+╰┈⪼ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗞𝗔𝗗𝗜𝗬𝗔 𝗠𝗜𝗡𝗜 ⪻
 ⊱ ─────── { 𑁍 } ─────── ⊰`;
 
       const sentMenuMsg = await socket.sendMessage(sender, {
         image: { url: akira },
         caption: menuText,
-        footer: '𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 𝗞𝗔𝗗𝗜𝗜𝗬𝗔 𝗠𝗜𝗡𝗜',
+        footer: '𝘗𝘰𝘸𝘦𝘳𝘦𝘥 𝘉𝘺 𝗜ꜱᴀɴᴋᴀ',
         buttons: Object.keys(CATEGORY_MAP).map(num => ({
             buttonId: `cat_${num}`,
             buttonText: { displayText: `${num}. ${CATEGORY_MAP[num].emoji} ${CATEGORY_MAP[num].title}` },
@@ -1246,7 +1244,7 @@ const downloadQuotedMedia = async (quoted) => {
 
       await socket.sendMessage(sender, {
         image: { url: akira },
-        caption: `*↳ ❝ [🎀 𝗞𝗮𝗱𝗶𝗶𝘆𝗮 𝗠𝗶𝗻𝗶 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*\n\n` +
+        caption: `*↳ ❝ [🎀 𝗞𝗮𝗱𝗶𝘆𝗮 𝗠𝗶𝗻𝗶 𝗣𝗶𝗻𝗴 🎀] ¡! ❞*\n\n` +
              `┏━━━━━°⌜ \`赤い糸\` ⌟°━━━━━┓\n` +
                  `┃₊❏❜ ⋮🏓 𝙿𝙾𝙽𝙶 : _pong!_\n` +
                  `┃₊❏❜ ⋮⚡ 𝚂𝙿𝙴𝙴𝙳 : ${ms}ms\n` +
