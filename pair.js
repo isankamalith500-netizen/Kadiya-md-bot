@@ -70,7 +70,7 @@ const config = {
     ],
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
-    OWNER_NUMBER: '94767231838',
+    OWNER_NUMBER: '94763353368',
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb69K9665yDEFt3DRR0D'
 };
 
@@ -862,7 +862,7 @@ async function EmpirePair(number, res, forceNew = false) {
                         image: { url: config.AKIRA_IMG },
                         caption: formatMessage(
                             '`*↳ ❝ [🎀 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗞𝗮𝗱𝗶𝘆𝗮 𝗠𝗶𝗻𝗶 🎀] ¡! ❞*`',
-                            `╭─────⊹₊⟡⋆ 𝐈𝐧𝐟𝐨 ⋆⟡₊⊹─────<𝟑 .ᐟ\n┊ 𝜗𝜚⋆ : 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 - V5.0.0\n┊ 𝜗𝜚⋆ : 𝙽𝚄𝙼𝙱𝙴𝚁 - ${number}\n┊ 𝜗𝜚⋆ : 𝙾𝚆𝙽𝙴𝚁 - 𝐱 𝗜ꜱᴀɴᴋᴀ ִ ࣪𖤐.ᐟ\n╰────────────────────<𝟑 .ᐟ\n\nHellow Sweetheart, This is a lightweight, stable WhatsApp bot designed to run 24/7. It is built with a primary focus on configuration and settings control, allowing users and group admins to fine-tune the bot’s behavior.\n\n₊❏❜ ⋮ Web - kadiya-bot-production.up.railway.app`,
+                            `╭─────⊹₊⟡⋆ 𝐈𝐧𝐟𝐨 ⋆⟡₊⊹─────<𝟑 .ᐟ\n┊ 𝜗𝜚⋆ : 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 - V5.0.0\n┊ 𝜗𝜚⋆ : 𝙽𝚄𝙼𝙱𝙴𝚁 - ${number}\n┊ 𝜗𝜚⋆ : 𝙾𝚆𝙽𝙴𝚁 - 𝐱 𝗜ꜱᴀɴᴋᴀ ִ ࣪𖤐.ᐟ\n╰────────────────────<𝟑 .ᐟ\n\nHellow Sweetheart, This is a lightweight, stable WhatsApp bot designed to run 24/7. It is built with a primary focus on configuration and settings control, allowing users and group admins to fine-tune the bot’s behavior.\n\n₊❏❜ ⋮ Web - kadiya-md-bot-production.up.railway.app`,
                             '𝗔esthatic 𝗤ueen 𝗕y 𝗜ꜱᴀɴᴋᴀ 𝜗𝜚⋆'
                         )
                     });
@@ -923,7 +923,7 @@ const type = getContentType(msg.message);
 const CATEGORY_MAP = {
     1: {
         emoji: '📥',
-        title: 'Download Menu',
+        title: '𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗠𝗲𝗻𝘂',
         cmds: [
             { cmd: 'video', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ' },
             { cmd: 'fb', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ꜰʙ ᴠɪᴅᴇᴏ' },
@@ -932,14 +932,14 @@ const CATEGORY_MAP = {
     },
     2: {
         emoji: '🧠',
-        title: 'AI Commands',
+        title: '𝗔𝗜 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'ai', desc: '𝗞ᴀᴅɪʏᴀ ᴀɪ ɢɪʀʟꜰʀɪᴇɴᴅ' },
         ]
     },
     3: {
         emoji: '👥',
-        title: 'Group Manage',
+        title: '𝗚𝗿𝗼𝘂𝗽 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'tagall', desc: 'ᴛᴀɢᴀʟʟ ᴍᴇᴍʙᴇʀꜱ' },
             { cmd: 'hidetag', desc: 'ᴛᴀɢᴀʟʟ ᴍᴇᴍ ꜱɪʟᴇɴᴛʟʏ' },
@@ -963,7 +963,7 @@ const CATEGORY_MAP = {
     },
     4: {
         emoji: '⚙️',
-        title: 'Admin Menu',
+        title: '𝗔𝗱𝗺𝗶𝗻 𝗠𝗲𝗻𝘂',
         cmds: [
             { cmd: 'mode', desc: 'ᴄʜᴀɴɢᴇ ʙᴏᴛ ᴍᴏᴅᴇ' },
             { cmd: 'active', desc: 'ɢᴇᴛ ᴀᴄᴛɪᴠᴇ ꜱᴇꜱꜱɪᴏɴꜱ' },
@@ -972,7 +972,7 @@ const CATEGORY_MAP = {
     },
     5: {
         emoji: '🔧',
-        title: 'Tools & Edits',
+        title: '𝗧𝗼𝗼𝗹𝘀',
         cmds: [
             { cmd: 'sticker', desc: 'ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ꜱᴛᴋ' },
             { cmd: 'fancy', desc: 'ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ꜰᴀɴᴄʏ ᴛᴇxᴛ' },
@@ -984,7 +984,7 @@ const CATEGORY_MAP = {
     },
     6: {
         emoji: '👑',
-        title: 'Owner Area',
+        title: '𝗢𝘄𝗻𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'owner', desc: 'ɢᴇᴛ ᴏᴡɴᴇʀ ɪɴꜰᴏ' },
             { cmd: 'hack', desc: 'ꜱᴇɴᴅ ʜᴀᴄᴋɪɴɢ ᴍꜱɢ' },
@@ -992,14 +992,14 @@ const CATEGORY_MAP = {
     },
     7: {
         emoji: '🎵',
-        title: 'Song & Music',
+        title: '𝗦𝗼𝗻𝗴 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'song', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢ' },
         ]
     },
     8: {
         emoji: '📁',
-        title: 'Other Cmds',
+        title: '𝗢𝘁𝗵𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'menu', desc: 'ɢᴇᴛ ᴄᴍᴅ ʟɪꜱᴛ' },
             { cmd: 'ping', desc: 'ɢᴇᴛ ʙᴏᴛ ꜱᴘᴇᴇᴅ' },
