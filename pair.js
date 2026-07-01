@@ -1032,7 +1032,7 @@ const type = getContentType(msg.message);
 const CATEGORY_MAP = {
     1: {
         emoji: '📥',
-        title: 'Download Menu',
+        title: '𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'video', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ᴠɪᴅᴇᴏ' },
             { cmd: 'fb', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ꜰʙ ᴠɪᴅᴇᴏ' },
@@ -1041,14 +1041,14 @@ const CATEGORY_MAP = {
     },
     2: {
         emoji: '🧠',
-        title: 'AI Commands',
+        title: '𝗔𝗜 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'ai', desc: '𝗞ᴀᴅɪʏᴀ ᴀɪ ɢɪʀʟꜰʀɪᴇɴᴅ' },
         ]
     },
     3: {
         emoji: '👥',
-        title: 'Group Manage',
+        title: '𝗚𝗿𝗼𝘂𝗽 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'tagall', desc: 'ᴛᴀɢᴀʟʟ ᴍᴇᴍʙᴇʀꜱ' },
             { cmd: 'hidetag', desc: 'ᴛᴀɢᴀʟʟ ᴍᴇᴍ ꜱɪʟᴇɴᴛʟʏ' },
@@ -1072,7 +1072,7 @@ const CATEGORY_MAP = {
     },
     4: {
         emoji: '⚙️',
-        title: 'Admin Menu',
+        title: '𝗔𝗱𝗺𝗶𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'mode', desc: 'ᴄʜᴀɴɢᴇ ʙᴏᴛ ᴍᴏᴅᴇ' },
             { cmd: 'active', desc: 'ɢᴇᴛ ᴀᴄᴛɪᴠᴇ ꜱᴇꜱꜱɪᴏɴꜱ' },
@@ -1081,7 +1081,7 @@ const CATEGORY_MAP = {
     },
     5: {
         emoji: '🔧',
-        title: 'Tools & Edits',
+        title: '𝗧𝗼𝗼𝗹𝘀 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'sticker', desc: 'ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ꜱᴛᴋ' },
             { cmd: 'fancy', desc: 'ᴄᴏɴᴠᴇʀᴛ ᴛᴏ ꜰᴀɴᴄʏ ᴛᴇxᴛ' },
@@ -1093,7 +1093,7 @@ const CATEGORY_MAP = {
     },
     6: {
         emoji: '👑',
-        title: 'Owner Area',
+        title: '𝗢𝘄𝗻𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'owner', desc: 'ɢᴇᴛ ᴏᴡɴᴇʀ ɪɴꜰᴏ' },
             { cmd: 'hack', desc: 'ꜱᴇɴᴅ ʜᴀᴄᴋɪɴɢ ᴍꜱɢ' },
@@ -1101,14 +1101,14 @@ const CATEGORY_MAP = {
     },
     7: {
         emoji: '🎵',
-        title: 'Song & Music',
+        title: '𝗦𝗼𝗻𝗴 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'song', desc: 'ᴅᴏᴡɴʟᴏᴀᴅ ꜱᴏɴɢ' },
         ]
     },
     8: {
         emoji: '📁',
-        title: 'Other Cmds',
+        title: '𝗢𝘁𝗵𝗲𝗿 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀',
         cmds: [
             { cmd: 'menu', desc: 'ɢᴇᴛ ᴄᴍᴅ ʟɪꜱᴛ' },
             { cmd: 'ping', desc: 'ɢᴇᴛ ʙᴏᴛ ꜱᴘᴇᴇᴅ' },
